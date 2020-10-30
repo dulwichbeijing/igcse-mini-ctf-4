@@ -1,2 +1,2 @@
-# house-programming-2020-2021
-DHSZ House Programming Challenge 2020/2021
+# House Programming Challenge 2020/2021
+More information coming soon!
