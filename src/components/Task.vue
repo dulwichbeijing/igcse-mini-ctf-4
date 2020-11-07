@@ -139,10 +139,15 @@ export default {
     .task pre {
         background: #efefef;
         padding: 10px 15px;
-        line-height: 1;
+        line-height: 1.75;
         text-align: left;
         overflow: auto;
         border-radius: 5px;
+        white-space: pre-wrap;
+    }
+
+    .task.correct .task__answer {
+        filter: blur(3px);
     }
 
     .task__answer {
