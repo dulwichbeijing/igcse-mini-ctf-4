@@ -1,0 +1,20 @@
+table {
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+td {
+    padding: 20px;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+/*
+    You shouldn't be in here, this is where I keep the second
+    part of the flag: 
+    
+    _the_body_
+*/
