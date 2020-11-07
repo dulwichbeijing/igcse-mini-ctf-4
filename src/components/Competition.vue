@@ -17,9 +17,11 @@
     <Task 
       v-for="(task, index) in tasks" 
       :key="index"
+      :taskNo="index"
       :name="task.name"
       :points="task.points"
       :detail="task.detail"
+      :monospace="task.monospace"
       :files="task.files"
       :md5="task.md5"
       :solved="task.solved"
@@ -28,7 +30,11 @@
     
     <h3>Extra details</h3>
     <ul>
-      <li><a href="https://github.com/DHSZ/house-programming-2020-2021" target="_blank" rel="noopener">Competition source code</a></li>
+      <li><a href="https://github.com/DHSZ/house-programming-2020-2021" target="_blank">Competition source code</a></li>
+      <li><a href="http://www.asciitable.com/" target="_blank">ASCII Table</a></li>
+      <li><a href="https://imagemagick.org/" target="_blank">ImageMagick</a></li>
+      <li><a href="https://hexed.it/" target="_blank">Hexadecimal Editor</a></li>
+      <li><a href="https://magpi.raspberrypi.org/articles/ssh-remote-control-raspberry-pi">SSH for RaspPi</a></li>
     </ul>
   </div>
 </template>
@@ -52,7 +58,7 @@ export default {
 
 <style scoped>
 .hello {
-  margin: 60px auto 120px;
+  margin: 0 auto;
   max-width: 800px;
   padding: 0 20px;
 }
@@ -70,7 +76,7 @@ h3 {
 }
 
 pre {
-  background: rgba(0,0,0,0.025);
+  background: #fefefe;
   padding: 15px;
   line-height: 1;
   border-radius: 5px;

@@ -1,10 +1,11 @@
 <template>
-    <div class="task">
+    <div class="task" :class="{correct: isCorrect || solved}">
         <div class="task__title">
-            <h4>{{ name }}</h4>
+            <h4>Task {{ taskNo + 1}}: {{ name }}</h4>
             <strong>{{ points }}</strong>
         </div>
         <p>{{ detail }}</p>
+        <pre v-if="monospace">{{ monospace }}</pre>
         <ul>
             <li v-for="(file, index) in files" :key="index">
                 <a :href="file">{{`Link ${index + 1}`}}</a>
@@ -14,8 +15,8 @@
             <label :for="md5">
                 Enter your flag here:
             </label>
-            <input :name="md5" type="text" v-model="flag" placeholder="dhszCTF{...}">
-            <button @click="checkFlag">{{ (checking) ? "Checking..." : "Check" }}</button>
+            <input :name="md5" type="text" :disabled="checking || isCorrect" v-model="flag" placeholder="dhszCTF{...}">
+            <button @click="checkFlag" :disabled="checking || isCorrect">{{ (checking) ? "Checking..." : "Check" }}</button>
         </div>
         <div v-if="message !== ''" class="task__message">{{ message }}</div>
     </div>    
@@ -36,25 +37,29 @@ export default {
         }
     },
     props: {
+        taskNo: Number,
         name: String,
         points: Number,
         detail: String,
+        monospace: String,
         files: Array,
-        md5: String
+        md5: String,
+        solved: Boolean
     },
     methods: {
         checkFlag() {
             this.checking = true
+            console.log(md5(this.flag))
             setTimeout(()=> {
                 this.isCorrect = md5(this.flag) === this.md5
                 if (this.isCorrect) {
                     this.checking = false
                     this.message = "That is correct!"
                     this.active = false
-                    store.commit('pushPoints', this.points)
+                    store.commit('pushPoints', {points: this.points, number: this.taskNo})
                 } else {
                     this.checking = false
-                    this.message = "That flag is not correct, please try again!"
+                    this.message = "That flag is not correct, please try again! 🤨"
                 }
             }, 500)
         }
@@ -70,6 +75,7 @@ export default {
         margin-bottom: 40px;
         position: relative;
         overflow: hidden;
+        background: #fff;
     }
 
     .task:after {
@@ -81,7 +87,32 @@ export default {
         width: 100%;
         display: block;
         background: linear-gradient(-90deg, #E9190F, #820263, #2364AA, #065143);
-    }   
+    }
+
+    .task.correct {
+        pointer-events: none;
+        position: relative;
+    }
+
+    .task.correct:before {
+        content: "😁";
+        font-size: 750%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.15);
+        text-shadow: 0px 0px 15px #aaa;
+    }
+
+    .f .task:after { background: #820263; }   
+    .g .task:after { background: #065143; }   
+    .r .task:after { background: #E9190F; }   
+    .s .task:after { background: #2364AA; }   
 
     .task__title {
         display: flex;
@@ -105,12 +136,22 @@ export default {
         margin-left: 4px;
     }
 
+    .task pre {
+        background: #efefef;
+        padding: 10px 15px;
+        line-height: 1;
+        text-align: left;
+        overflow: auto;
+        border-radius: 5px;
+    }
+
     .task__answer {
         display: flex;
         justify-content: space-between;
         border-top: 1px solid #eee;
         margin-top: 15px;
         padding-top: 15px;
+        padding-bottom: 1px;
     }
 
     .task__answer label {
