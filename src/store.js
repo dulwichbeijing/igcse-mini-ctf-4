@@ -61,7 +61,7 @@ export default new Vuex.Store({
         name: "PyTech Tech Ltd.",
         points: 250,
         detail: "We're doing our best to break into the PyTech Tech servers. We don't know the password, but we have found their password checking algorithm!",
-        files: ["https://dhsz.github.io/house-coding-2020-2021/task-files/task6.py"],
+        files: ["https://github.com/DHSZ/house-coding-2020-2021/blob/gh-pages/task-files/task6.py"],
         md5: "753d05bd192095e39c8e72eba7bc8b09",
         solved: false
       }
