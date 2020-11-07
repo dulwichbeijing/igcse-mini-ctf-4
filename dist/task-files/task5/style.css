@@ -3,6 +3,10 @@ table {
     margin: 40px auto;
 }
 
+tr:first-child {
+    text-align: center;
+}
+
 td {
     padding: 20px;
 }
