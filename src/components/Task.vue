@@ -8,7 +8,7 @@
         <pre v-if="monospace">{{ monospace }}</pre>
         <ul>
             <li v-for="(file, index) in files" :key="index">
-                <a :href="file">{{`Link ${index + 1}`}}</a>
+                <a :href="file" target="_blank">{{`Link ${index + 1}`}}</a>
             </li>
         </ul>
         <div class="task__answer">

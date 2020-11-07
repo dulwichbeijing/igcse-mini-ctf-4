@@ -25,9 +25,9 @@ export default new Vuex.Store({
         name: "This is supposed to be English?",
         points: 200,
         detail: "You have just received the following text message, but something has clearly gone wrong...",
-        monospace: "01100100 01110101 01101100 01110111 01101001 01100011 01101000 01000011 01010100 01000110 01111011 01101010 01110101 01110011 01110100 01011111 01100001 01110011 01100011 01101001 01101001 01111101",
+        monospace: "01100100 01101000 01110011 01111010 01000011 01010100 01000110 01111011 01101010 01110101 01110011 01110100 01011111 01100001 01110011 01100011 01101001 01101001 01111101",
         files: [],
-        md5: "15b5b28aedc665b43eb1a8335036af73",
+        md5: "ae29606ccf70ff6c3467f1db1d6e9ef5",
         solved: false
       },
       {
@@ -37,24 +37,24 @@ export default new Vuex.Store({
         files: [
           "https://dhsz.github.io/house-coding-2020-2021/task-files/task3.jpg"
         ],
-        md5: "1b651b8ffdeda6f6da2476d4106243a1",
+        md5: "0648029be255cfc4705d4e06cabdd4b2",
         solved: false
       },
       {
         name: "Let's get cracking!",
         points: 350,
         detail: "You have just intercepted the following message. Unfortunately, it's still encrypted!",
-        monospace: "mljk jk z irzddw jamrirkmjan eicxdrb mc kcdqr. pirgoravw zazdwkjk, scs!\n\nzawszw, lrir jk mlr pdzn mlzm wco zir eicxzxdw dccfjan pci:\n\ntodsjvl{hokm_djfr_moijan}",
+        monospace: "Gkkf zr okt mk, vbcwolrsjm colrabwrbir gsfb z cazhl!\n\nZjouzo, okt zwb lwkxzxgo gkkfsjm nkw z ngzm, obe?\n\nAbwb sr se:\n\nvaepCRN{xwbzf_bjsmhz}",
         files: [],
-        md5: "dd60fdf4d71fcd8363681f202e0f6691",
+        md5: "4c2ebc59439f45360b16ee56ddda798d",
         solved: false
       },
       {
-        name: "Check you're all set up",
-        points: 100,
-        detail: "The answer to this task is dhszCTF{dulwich}",
+        name: "Chicken?",
+        points: 300,
+        detail: "There's something strange about this web page, but I'm not sure what...",
         files: [],
-        md5: "b33f71ec11ddcd26346f065288e32c6d",
+        md5: "06bebf2341bb8611c3ac1249f61a07f6",
         solved: false
       }
     ]
