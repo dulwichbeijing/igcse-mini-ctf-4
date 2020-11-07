@@ -146,10 +146,6 @@ export default {
         white-space: pre-wrap;
     }
 
-    .task.correct .task__answer {
-        filter: blur(3px);
-    }
-
     .task__answer {
         display: flex;
         justify-content: space-between;

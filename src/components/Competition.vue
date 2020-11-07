@@ -5,11 +5,15 @@
     
     <h3>About the competition</h3>
     <p>
+      Capture the flag is a style of hacking competition where a hidden message known as a "flag"
+      needs to be located, calculated or decrypted.
+    </p>
+    <p>
       You have 2 hours to complete as many of the challenges below as possible. 
       The first few tasks are simple then get progressively harder, you can attempt them in any order.
     </p>
     <p>
-      You should give all of your answers in the following format: 
+      Once you have found your flag, you should submit your answer using the following format: 
       <pre>dhszCTF{secret_message}</pre>
     </p>
     

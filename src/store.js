@@ -53,8 +53,16 @@ export default new Vuex.Store({
         name: "Chicken?",
         points: 300,
         detail: "There's something strange about this web page, but I'm not sure what...",
-        files: [],
+        files: ["https://dhsz.github.io/house-coding-2020-2021/task-files/task5/"],
         md5: "06bebf2341bb8611c3ac1249f61a07f6",
+        solved: false
+      },
+      {
+        name: "PyTech Tech Ltd.",
+        points: 250,
+        detail: "We're doing our best to break into the PyTech Tech servers. We don't know the password, but we have found their password checking algorithm!",
+        files: ["https://dhsz.github.io/house-coding-2020-2021/task-files/task6.py"],
+        md5: "753d05bd192095e39c8e72eba7bc8b09",
         solved: false
       }
     ]
