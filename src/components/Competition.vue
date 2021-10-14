@@ -36,6 +36,7 @@
     <ul>
       <li><a href="https://github.com/dulwichbeijing/igcse-mini-ctf" target="_blank">Competition source code</a></li>
       <li><a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg" target="_blank">SVG Reference</a></li>
+      <li><a href="https://www.bbc.co.uk/bitesize/guides/zqyrq6f/revision/3" target="_blank">What is metadata?</a></li>
       <li><a href="https://www.garykessler.net/library/file_sigs.html">File Signatures</a></li>
       <li><a href="https://hexed.it/" target="_blank">Hexadecimal Editor</a></li>
       <li><a href="https://imagemagick.org/" target="_blank">ImageMagick</a></li>
