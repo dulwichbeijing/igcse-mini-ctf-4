@@ -50,7 +50,7 @@ export default new Vuex.Store({
         name: "Open this file",
         points: 200,
         detail: "I think something went wrong when I copied this PNG file, a few 'bits' have gone missing - 64 of them to be precise.",
-        files: ["https://raw.githubusercontent.com/dulwichbeijing/igcse-mini-ctf/main/public/task-files/task5.png"],
+        files: ["https://raw.githubusercontent.com/dulwichbeijing/igcse-mini-ctf/main/public/task-files/task5"],
         md5: "f80d28a05444bbebfc1306dd945bd40a", // done
         solved: false
       }
