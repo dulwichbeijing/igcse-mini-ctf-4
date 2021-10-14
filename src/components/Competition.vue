@@ -5,16 +5,16 @@
     
     <h3>About the competition</h3>
     <p>
-      Capture the flag is a style of hacking competition where a hidden message known as a "flag"
-      needs to be located, calculated or decrypted.
+      Capture the flag is a style of computer science competition where a hidden message known as a "flag"
+      is hidden within different pieces of digital data.
     </p>
     <p>
       You have this lesson to complete as many of the challenges below as possible. 
-      The first few tasks are simple then get progressively harder, you can attempt them in any order.
+      There are links at the bottom of the webpage which will help you with certain challenges.
     </p>
     <p>
       Once you have found your flag, you should submit your answer using the following format: 
-      <pre>dcbCTF{secret_message}</pre>
+      <pre>dcbCTF{secret_flag}</pre>
     </p>
     
     <h3>Tasks</h3>
