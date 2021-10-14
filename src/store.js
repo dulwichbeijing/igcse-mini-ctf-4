@@ -25,7 +25,7 @@ export default new Vuex.Store({
         name: "What's your vector victor?",
         points: 200,
         detail: "Take a look at the following SVG file, can you find the secret flag in here?",
-        files: [],
+        files: ["https://raw.githubusercontent.com/dulwichbeijing/igcse-mini-ctf/main/public/task-files/task-2.svg"],
         md5: "2e809b534c70e9b89566dcf355ca2a44", // done
         solved: false
       },
@@ -33,7 +33,7 @@ export default new Vuex.Store({
         name: "Who is the creator?",
         points: 200,
         detail: "Did you know within all files there is data about data? That's so meta.",
-        files: [],
+        files: ["https://raw.githubusercontent.com/dulwichbeijing/igcse-mini-ctf/main/public/task-files/task3.jpg"],
         md5: "8bd98ae3d0f2398540c6c157d819a5b1", // done
         solved: false
       },
@@ -42,7 +42,7 @@ export default new Vuex.Store({
         points: 200,
         detail: "Please tell me the name of this sculpture, give your answer in the format:",
         monospace: "dcbCTF{sculpture_name}",
-        files: [],
+        files: ["https://raw.githubusercontent.com/dulwichbeijing/igcse-mini-ctf/main/public/task-files/task4.jpg"],
         md5: "b9c9ed8a17e4ee05b9bf90f19a835729", // done
         solved: false
       },
@@ -50,7 +50,7 @@ export default new Vuex.Store({
         name: "Open this file",
         points: 200,
         detail: "I think something went wrong when I copied this PNG file, a few 'bits' have gone missing - 64 of them to be precise.",
-        files: [],
+        files: ["https://raw.githubusercontent.com/dulwichbeijing/igcse-mini-ctf/main/public/task-files/task5.png"],
         md5: "f80d28a05444bbebfc1306dd945bd40a", // done
         solved: false
       }
