@@ -22,7 +22,7 @@ export default new Vuex.Store({
         solved: false
       },
       {
-        name: "What's your vector victor?",
+        name: "What's your vector Victor?",
         points: 200,
         detail: "Take a look at the following SVG file, can you find the secret flag in here?",
         files: ["https://raw.githubusercontent.com/dulwichbeijing/igcse-mini-ctf/main/public/task-files/task-2.svg"],
