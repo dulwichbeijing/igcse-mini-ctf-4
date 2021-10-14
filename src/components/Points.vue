@@ -4,17 +4,6 @@
             <span>{{currentScore}}</span>
             <span>points</span>
         </div>
-        <div class="house">
-            <span>Set colour scheme</span>
-            <select @change="setColour" v-model="newColour">
-                <option disabled value="">Please select a colour</option>
-                <option 
-                    v-for="colour in colourOptions"
-                    :key="colour.value"
-                    :value="colour.value"
-                >{{ colour.name }}</option>
-            </select>
-        </div>
     </div>
 </template>
 <script>

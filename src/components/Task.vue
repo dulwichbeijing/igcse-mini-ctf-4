@@ -15,7 +15,7 @@
             <label :for="md5">
                 Enter your flag here:
             </label>
-            <input :name="md5" type="text" :disabled="checking || isCorrect" v-model="flag" placeholder="dhszCTF{...}">
+            <input :name="md5" type="text" :disabled="checking || isCorrect" v-model="flag" placeholder="dcbCTF{...}">
             <button @click="checkFlag" :disabled="checking || isCorrect">{{ (checking) ? "Checking..." : "Check" }}</button>
         </div>
         <div v-if="message !== ''" class="task__message">{{ message }}</div>
@@ -86,7 +86,7 @@ export default {
         left: 0;
         width: 100%;
         display: block;
-        background: linear-gradient(-90deg, #E9190F, #820263, #2364AA, #065143);
+        background: linear-gradient(-90deg, #ec911a, #E9190F, #820263, #2364AA, #065143);
     }
 
     .task.correct {
@@ -108,11 +108,6 @@ export default {
         background: rgba(0,0,0,0.15);
         text-shadow: 0px 0px 15px #aaa;
     }
-
-    .f .task:after { background: #820263; }   
-    .g .task:after { background: #065143; }   
-    .r .task:after { background: #E9190F; }   
-    .s .task:after { background: #2364AA; }   
 
     .task__title {
         display: flex;

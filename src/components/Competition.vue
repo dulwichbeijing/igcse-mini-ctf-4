@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>{{ sub }} - 🔴 🟣 🔵 🟢</h2>
+    <h2>{{ sub }}</h2>
     
     <h3>About the competition</h3>
     <p>
@@ -9,12 +9,12 @@
       needs to be located, calculated or decrypted.
     </p>
     <p>
-      You have 2 hours to complete as many of the challenges below as possible. 
+      You have this lesson to complete as many of the challenges below as possible. 
       The first few tasks are simple then get progressively harder, you can attempt them in any order.
     </p>
     <p>
       Once you have found your flag, you should submit your answer using the following format: 
-      <pre>dhszCTF{secret_message}</pre>
+      <pre>dcbCTF{secret_message}</pre>
     </p>
     
     <h3>Tasks</h3>
@@ -34,11 +34,12 @@
     
     <h3>Extra details</h3>
     <ul>
-      <li><a href="https://github.com/DHSZ/house-programming-2020-2021" target="_blank">Competition source code</a></li>
-      <li><a href="http://www.asciitable.com/" target="_blank">ASCII Table</a></li>
-      <li><a href="https://imagemagick.org/" target="_blank">ImageMagick</a></li>
+      <li><a href="https://github.com/dulwichbeijing/igcse-mini-ctf" target="_blank">Competition source code</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg" target="_blank">SVG Reference</a></li>
+      <li><a href="https://www.garykessler.net/library/file_sigs.html">File Signatures</a></li>
       <li><a href="https://hexed.it/" target="_blank">Hexadecimal Editor</a></li>
-      <li><a href="https://magpi.raspberrypi.org/articles/ssh-remote-control-raspberry-pi">SSH for RaspPi</a></li>
+      <li><a href="https://imagemagick.org/" target="_blank">ImageMagick</a></li>
+      <li><a href="https://www.exifdata.com/" target="_blank">EXIF data viewer</a></li>
     </ul>
   </div>
 </template>

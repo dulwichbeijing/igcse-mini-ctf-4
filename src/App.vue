@@ -1,6 +1,6 @@
 <template>
   <div id="app" :class="colourScheme">
-    <Competition msg="DHSZ House Coding 2020-21" sub="Capture The Flag"/>
+    <Competition msg="DCB Mini CTF" sub="Digital Images"/>
     <Points score="0"></Points>
   </div>
 </template>
@@ -74,27 +74,6 @@ button:hover {
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(-90deg, #E9190F, #820263, #2364AA, #065143);
+  background: linear-gradient(-90deg, #ec911a, #E9190F, #820263, #2364AA, #065143);
 }
-
-/* Fan style */
-#app.f { background: rgba(130, 2, 99, 0.05); }
-#app.f:before { background: #820263; }
-#app.f a { color: #820263; }
-
-/* Gren style */
-#app.g { background: rgba(6, 81, 67, 0.05); }
-#app.g:before { background: #065143; }
-#app.g a { color: #065143; }
-
-/* Raleigh style */
-#app.r { background: rgba(233, 25, 15, 0.05); }
-#app.r:before { background: #E9190F; }
-#app.r a { color: #E9190F; }
-
-/* Spen style */
-#app.s { background: rgba(35, 100, 170, 0.05); }
-#app.s:before { background: #2364AA; }
-#app.s a { color: #2364AA; }
-
 </style>
