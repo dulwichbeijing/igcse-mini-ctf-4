@@ -53,6 +53,14 @@ export default new Vuex.Store({
         files: ["https://raw.githubusercontent.com/dulwichbeijing/igcse-mini-ctf/main/public/task-files/task5"],
         md5: "f80d28a05444bbebfc1306dd945bd40a", // done
         solved: false
+      },
+      {
+        name: "Scan this QR code",
+        points: 200,
+        detail: "It really is as simple as it sounds...",
+        files: ["https://raw.githubusercontent.com/dulwichbeijing/igcse-mini-ctf/main/public/task-files/task6.png"],
+        md5: "659d1a73e65e9b77a069b4b7515119a8", // done
+        solved: false
       }
     ]
   },
