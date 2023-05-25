@@ -49,11 +49,12 @@ export default new Vuex.Store({
         solved: false
       },
       {
-        name: "",
+        name: "The worlds most popular",
         points: 200,
-        detail: "",
+        detail: "I was playing with a sustitution cipher made with the worlds most popular language. Can you run the program and decrypt the flag? The output will be all UPPERCASE.",
+        monospace: "GMPMUD{BEJU_AEAFZXK_ZXWHFXHT}",
         files: [""],
-        md5: "", // done
+        md5: "4b1660262c16c3ee4b9b605d66b07623", // done
         solved: false
       },
       {
