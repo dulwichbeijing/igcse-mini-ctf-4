@@ -73,6 +73,14 @@ export default new Vuex.Store({
         files: ["https://raw.githubusercontent.com/dulwichbeijing/igcse-mini-ctf-4/main/public/task-files/debug_me.py"],
         md5: "85b9d1028d3f8ff910d9f9e85afb3e29", // done
         solved: false
+      },
+      {
+        name: "Find your flow",
+        points: 200,
+        detail: "Trace the following algorithm to find the final output of the program. Complete the trace table for the input data: 13, 17, 26, 25, 5, 10, 15, 35, 20, 15. Give your answer in the following format.",
+        monospace: "dcbCTF{Weight of items <TotalWeight> Number of items rejected <Reject>",
+        files: ["https://raw.githubusercontent.com/dulwichbeijing/igcse-mini-ctf-4/main/public/task-files/flow.png"],
+        md5: "ef1ad7e2d431cc765d436532d50dfccf"
       }
     ]
   },
