@@ -34,7 +34,6 @@
     
     <h3>Extra details</h3>
     <ul>
-      <li><a href="https://github.com/dulwichbeijing/igcse-mini-ctf4" target="_blank">Competition source code</a></li>
       <li><a href="https://docs.fileformat.com/executable/pyc/" target="_blank">What are .pyc files?</a></li>
       <li><a href="https://peterhigginson.co.uk/LMC/" target="_blank">Little Man Computer</a></li>
       <li><a href="https://www.pythonforbeginners.com/basics/string-manipulation-in-python">String manipulation in Python</a></li>
