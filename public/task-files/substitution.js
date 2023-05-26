@@ -41,7 +41,7 @@ function encrypt(message, key) {
   }
   
   // Example usage
-  var message = "GMPMUD{BEJU_AEAFZXK_ZXWHFXHT}";
+  var message = "Plain text goes here";
   var key = "XPMGTDHLYONZBWEARKJUFSCIQV";
   
   var encryptedMessage = encrypt(message, key);
