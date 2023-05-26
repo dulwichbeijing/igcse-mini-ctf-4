@@ -1,1 +1,0 @@
-print("This code was compiled and the flag is dcbCTF{4ll@0nce}")

@@ -26,14 +26,23 @@ export default new Vuex.Store({
         points: 200,
         detail: "Did you know it's possible to compile Python code? I just did it. The flag is hidden in this executable.",
         monospace: "",
-        files: ["https://raw.githubusercontent.com/dulwichbeijing/igcse-mini-ctf-4/main/public/task-files/obsure.cpython-311.opt-2.pyc"],
+        files: ["https://raw.githubusercontent.com/dulwichbeijing/igcse-mini-ctf-4/main/public/task-files/obscure.cpython-311.opt-2.pyc"],
         md5: "3dfc8f1bbe4912b199b1989e057b4592", // done
+        solved: false
+      },
+      {
+        name: "Lost in translation",
+        points: 200,
+        detail: "Apparently, when you run this program it will output the flag. But how do we run it?!",
+        monospace: "",
+        files: ["https://raw.githubusercontent.com/dulwichbeijing/igcse-mini-ctf-4/main/public/task-files/compile_me.c"],
+        md5: "95b3ec635fe86d2406ee5736c2f1a636", 
         solved: false
       },
       {
         name: "LMC",
         points: 200,
-        detail: "Little men, assemble! Run this code and then output the result within the usual flag format",
+        detail: "Little men, assemble! The flag is written within this low-level code.",
         files: ["https://raw.githubusercontent.com/dulwichbeijing/igcse-mini-ctf-4/main/public/task-files/lmc.txt"],
         md5: "15b1524804fb3d7138fe732ea0e6f651", // done
         solved: false
@@ -50,7 +59,7 @@ export default new Vuex.Store({
       {
         name: "The worlds most popular",
         points: 200,
-        detail: "I was playing with a substitution cipher made with the worlds most popular language. Can you run the program and decrypt the flag? The output will be all UPPERCASE.",
+        detail: "I was playing with a substitution cipher made with the worlds most popular language. Can you reverse the program and decrypt the flag? The output will be all UPPERCASE.",
         monospace: "GMPMUD{BEJU_AEAFZXK_ZXWHFXHT}",
         files: ["https://raw.githubusercontent.com/dulwichbeijing/igcse-mini-ctf-4/main/public/task-files/substitution.js"],
         md5: "4b1660262c16c3ee4b9b605d66b07623", // done

@@ -39,6 +39,7 @@
       <li><a href="https://peterhigginson.co.uk/LMC/" target="_blank">Little Man Computer</a></li>
       <li><a href="https://www.pythonforbeginners.com/basics/string-manipulation-in-python">String manipulation in Python</a></li>
       <li><a href="https://www.jetbrains.com/help/pycharm/debugging-your-first-python-application.html" target="_blank">How to debug in PyCharm</a></li>
+      <li><a href="https://jsfiddle.net/" target="_blank">Online JS playground</a></li>
     </ul>
   </div>
 </template>
