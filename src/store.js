@@ -22,7 +22,7 @@ export default new Vuex.Store({
         solved: false
       },
       {
-        name: "Compiler or interpreter?",
+        name: "I thought Python was interpreted?",
         points: 200,
         detail: "Did you know it's possible to compile Python code? I just did it. The flag is hidden in this executable.",
         monospace: "",
@@ -31,18 +31,17 @@ export default new Vuex.Store({
         solved: false
       },
       {
-        name: "Let Me Code (LMC)",
+        name: "LMC",
         points: 200,
         detail: "Little men, assemble! Run this code and then output the result within the usual flag format",
-        monospace: "dcbCTF{output_goes_here}",
         files: ["https://raw.githubusercontent.com/dulwichbeijing/igcse-mini-ctf-4/main/public/task-files/lmc.txt"],
-        md5: "20129e7e6f97015d68e1704e70ef106a", // done
+        md5: "15b1524804fb3d7138fe732ea0e6f651", // done
         solved: false
       },
       {
-        name: "Just a bit of string manipulation",
+        name: "Master manipulation",
         points: 200,
-        detail: "Something weird has happened to the flag. I know the following output after running it through the attached program",
+        detail: "Something weird has happened to the flag. This is the output I received after the flag was input into the attached program",
         monospace: "dcbctfnurts{h`1vu~",
         files: ["https://raw.githubusercontent.com/dulwichbeijing/igcse-mini-ctf-4/main/public/task-files/string_manipulation.py"],
         md5: "c19f6f435e98ca0cd10e69c9c16c278f", // done
@@ -51,18 +50,19 @@ export default new Vuex.Store({
       {
         name: "The worlds most popular",
         points: 200,
-        detail: "I was playing with a sustitution cipher made with the worlds most popular language. Can you run the program and decrypt the flag? The output will be all UPPERCASE.",
+        detail: "I was playing with a substitution cipher made with the worlds most popular language. Can you run the program and decrypt the flag? The output will be all UPPERCASE.",
         monospace: "GMPMUD{BEJU_AEAFZXK_ZXWHFXHT}",
-        files: [""],
+        files: ["https://raw.githubusercontent.com/dulwichbeijing/igcse-mini-ctf-4/main/public/task-files/substitution.js"],
         md5: "4b1660262c16c3ee4b9b605d66b07623", // done
         solved: false
       },
       {
-        name: "",
+        name: "Debugging Base64",
         points: 200,
-        detail: "",
-        files: [""],
-        md5: "", // done
+        detail: "The following information is encoded as a base64 string (whatever that means), Mr Rigby wrote a program to decode this data but it's not producing the right output...",
+        monospace: "VmpKMGExUXlSbGRTV0doV1lUSlNjMVJVUmt0TmJHeHhVMnBTYkdKSFp6SldWekZoWVRGSmVXRklUbGhTUlhBeVdrUkdjMlJWTVVWTlJEQTk=",
+        files: ["https://raw.githubusercontent.com/dulwichbeijing/igcse-mini-ctf-4/main/public/task-files/debug_me.py"],
+        md5: "85b9d1028d3f8ff910d9f9e85afb3e29", // done
         solved: false
       }
     ]

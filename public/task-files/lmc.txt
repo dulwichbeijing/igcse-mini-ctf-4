@@ -1,14 +1,31 @@
-        lda start 
-        sta char
-loop    lda char
-        otc
-        add one
-        sta char
-        sub max
-        brz end
-        bra loop
-end     hlt
-start   dat 48
-one     dat 1
-max     dat 58
-char    dat
+        LDA F1
+        OTC
+        LDA F2
+        OTC
+        LDA F3
+        OTC
+        LDA F3
+        OTC
+        LDA F1
+        OTC
+        LDA F4
+        OTC
+        LDA F5
+        OTC
+        LDA F6
+        OTC
+        LDA F1
+        OTC
+        LDA F7
+        OTC
+        LDA F8
+        OTC
+        HLT
+F1      DAT 108 
+F2      DAT 105 
+F3      DAT 116 
+F4      DAT 101 
+F5      DAT 95 
+F6      DAT 102 
+F7      DAT 97 
+F8      DAT 103 

@@ -34,13 +34,11 @@
     
     <h3>Extra details</h3>
     <ul>
-      <li><a href="https://github.com/dulwichbeijing/igcse-mini-ctf" target="_blank">Competition source code</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg" target="_blank">SVG Reference</a></li>
-      <li><a href="https://www.bbc.co.uk/bitesize/guides/zqyrq6f/revision/3" target="_blank">What is metadata?</a></li>
-      <li><a href="https://www.garykessler.net/library/file_sigs.html">File Signatures</a></li>
-      <li><a href="https://hexed.it/" target="_blank">Hexadecimal Editor</a></li>
-      <li><a href="https://imagemagick.org/" target="_blank">ImageMagick</a></li>
-      <li><a href="https://www.exifdata.com/" target="_blank">EXIF data viewer</a></li>
+      <li><a href="https://github.com/dulwichbeijing/igcse-mini-ctf4" target="_blank">Competition source code</a></li>
+      <li><a href="https://docs.fileformat.com/executable/pyc/" target="_blank">What are .pyc files?</a></li>
+      <li><a href="https://peterhigginson.co.uk/LMC/" target="_blank">Little Man Computer</a></li>
+      <li><a href="https://www.pythonforbeginners.com/basics/string-manipulation-in-python">String manipulation in Python</a></li>
+      <li><a href="https://www.jetbrains.com/help/pycharm/debugging-your-first-python-application.html" target="_blank">How to debug in PyCharm</a></li>
     </ul>
   </div>
 </template>
