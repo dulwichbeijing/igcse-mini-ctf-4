@@ -1,6 +1,6 @@
 <template>
   <div id="app" :class="colourScheme">
-    <Competition msg="DCB Mini CTF" sub="Digital Images"/>
+    <Competition msg="DCB Mini CTF 4" sub="Language Translation"/>
     <Points score="0"></Points>
   </div>
 </template>

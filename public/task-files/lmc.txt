@@ -1,0 +1,14 @@
+        lda start 
+        sta char
+loop    lda char
+        otc
+        add one
+        sta char
+        sub max
+        brz end
+        bra loop
+end     hlt
+start   dat 48
+one     dat 1
+max     dat 58
+char    dat
